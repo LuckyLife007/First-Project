@@ -1,0 +1,66 @@
+body {
+  background-color: lightgrey
+}
+
+div.navbar {
+  position: static;
+  display: inline-block;
+  height: 30px;
+  width: 100%;
+}
+
+h1 {
+  display: inline;
+}
+
+button.addbtn {
+  display: inline;
+  position: absolute;
+  right: 150px;
+  top: 20px;
+}
+ 
+button#delete-product-btn {
+  display: inline;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+hr {
+  background-color: red;
+  height: 3px;
+}
+
+div.productlist {
+  background-color: lightblue;
+  display: inline-block;
+  position: relative;
+  height: fit-content;
+  width:fit-content;
+  border: black solid 3px;
+  padding: 20px 20px 20px 20px;
+}
+
+div.product {
+  background-color: lightskyblue;
+  display: inline-table;
+  margin: 20px 20px 20px 20px;
+  height: 180px;
+  width: 380px;
+  border: black solid 2px;
+}
+
+input.delete-checkbox {
+  text-align: left;
+  display: block;
+}
+
+.sku, .name, .price, .attribute {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+footer {
+  text-align: center;
+}

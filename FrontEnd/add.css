@@ -1,0 +1,68 @@
+body {
+  background-color: lightpink;
+}
+
+div.navbar {
+  position: static;
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+}
+
+h1 {
+  display: inline;
+}
+
+button.savebtn {
+ display: inline;
+ position: absolute;
+ right: 150px;
+ top: 23px;
+}
+
+button.cancelbtn {
+  display: inline;
+  position: absolute;
+  right: 75px;
+  top: 23px;
+}
+
+hr {
+  background-color: blue;
+  height: 3px;
+}
+
+fieldset {
+  width: 95%;
+  height: fit-content;
+  margin-bottom: 50px;
+  border: solid blue 2px;
+}
+
+label, input, span {
+  display: inline;
+}
+
+div.unique {
+  color: red;
+  position: absolute;
+  left: 120px;
+}
+
+span {
+  font-style: italic;
+  color: blue;
+  font-family: monospace;
+  position: absolute;
+  left: 300px;
+  font-size:small;
+}
+
+input, select {
+  position: absolute;
+  left: 120px;
+}
+
+footer {
+  text-align: center;
+}
